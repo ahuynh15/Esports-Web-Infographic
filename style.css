@@ -1,0 +1,275 @@
+@font-face {
+	font-family: 'VCR';
+	src: url(VCR_OSD_MONO.tff) format('truetype'),
+		 url(VCR_OSD_MONO.woff) format('woff');
+}
+
+body {
+	background-color: #000000;
+	font-family: 'VCR', sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30pt;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30pt;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	padding-right: 50pt;
+}
+
+h3 {
+	font-size: 18pt;
+}
+
+div {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10pt;
+}
+
+p {
+	font-size: 16pt;
+}
+
+.chart {
+	width: 225pt;
+	padding-left: 20pt;
+	padding-right: 20pt;
+}
+
+.coins {
+	text-align: left;
+}
+
+.popout {
+	position: absolute;
+	width: 200pt;
+	transition: .2s;
+}
+
+.popout:hover {
+	width: 225pt;
+	transition: .2s;
+}
+
+.icon {
+	width: 10%;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	transition: .2s;
+}
+
+.icon:hover {
+	width: 12.5%;
+	transition: .2s;
+}
+
+.icon2 {
+	padding-left: 10pt;
+	padding-right: 10pt;
+	height: 50pt;
+	transition: .2s;
+}
+
+.icon2:hover {
+	height: 60pt;
+	transition: .2s;
+}
+
+#back {
+	height: 30pt;
+}
+
+#next {
+	height: 30pt;
+}
+
+#title {
+	background-color: #6E03A9;
+	padding-bottom: 0pt;
+}
+
+#title .shadow {
+	background-color: #440268;
+	height: 10pt;
+	margin-top: -30pt;
+	width: 100%;
+}
+
+#background {
+	background-color: #A3005C;
+}
+
+#background .shadow {
+	background-color: #7D0047;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#background h2 {
+	background-color: #CB0073;
+}
+
+#WatchAnywhere {
+	background-color: #7FBE00;
+}
+
+#WatchAnywhere .shadow {
+	background-color: #619100;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#WatchAnywhere h2 {
+	background-color: #9DEC00;
+}
+
+#TwitchGrowth {
+	background-color: #DD9C00;
+}
+
+#TwitchGrowth .shadow {
+	background-color: #CC7B00;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#TwitchGrowth h2 {
+	background-color: #EDAC00;
+}
+
+#Home {
+	background-color: #580288;
+}
+
+#Home .shadow {
+	background-color: #440268;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#Home h2 {
+	background-color: #6E03A9;
+}
+
+#LirikFollowers {
+	background-color: #580288;
+}
+
+#LirikFollowers .shadow {
+	background-color: #440268;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#LirikFollowers h2 {
+	background-color: #6E03A9;
+}
+
+#WhoseWatching {
+	background-color: #A3005C;
+}
+
+#WhoseWatching .shadow {
+	background-color: #7D0047;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#WhoseWatching h2 {
+	background-color: #CB0073;
+}
+
+#MVG {
+	background-color: #DD9C00;
+}
+
+#MVG .shadow {
+	background-color: #CC7B00;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#MVG h2 {
+	background-color: #EDAC00;
+}
+
+#TheWorld {
+	background-color: #7FBE00;
+}
+
+#TheWorld .shadow {
+	background-color: #619100;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#TheWorld h2 {
+	background-color: #9DEC00;
+}
+
+#PrizePools {
+	background-color: #580288;
+}
+
+#PrizePools .shadow {
+	background-color: #440268;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#PrizePools h2 {
+	background-color: #6E03A9;
+}
+
+#DoubleLives {
+	background-color: #A3005C;
+}
+
+#DoubleLives .shadow {
+	background-color: #7D0047;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#DoubleLives h2 {
+	background-color: #CB0073;
+}
+
+#Channels {
+	background-color: #7FBE00;
+}
+
+#Channels .shadow {
+	background-color: #619100;
+	height: 4pt;
+	margin-top: -25pt;
+	width: 100%;
+}
+
+#Channels h2 {
+	background-color: #9DEC00;
+}
+
+/*Color Scheme: http://paletton.com/#uid=74H0u0kPNvKrBL+IyO8QTpzSgjy */
